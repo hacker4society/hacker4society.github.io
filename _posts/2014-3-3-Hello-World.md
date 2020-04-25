@@ -83,11 +83,11 @@ multiplication_table(1, 3)
  for y in range(x):
  print(y)
  
- ##### Answer:8
+##### Answer:8
  
- #### 8.How does this function need to be called to print yes, no, and maybe as possible options?
+#### 8.How does this function need to be called to print yes, no, and maybe as possible options?
      	def votes(params):
  for vote in params:
  print("Possible option:" + vote)
  
- ##### Answer: votes(['yes', 'no', 'maybe'])
+##### Answer: votes(['yes', 'no', 'maybe'])
