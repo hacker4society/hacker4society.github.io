@@ -37,11 +37,10 @@ show_letters("Hello")
  count += 1
  n = int(n/10)
  return count+1
-
-print(digits(25)) # Should print 2
-print(digits(144)) # Should print 3
-print(digits(1000)) # Should print 4
-print(digits(0)) # Should print 1
+print(digits(25))
+print(digits(144))
+print(digits(1000))
+print(digits(0))
 
 ##### Answer:2 3 4 1
 
