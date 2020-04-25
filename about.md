@@ -4,13 +4,12 @@ title: About
 permalink: /about/
 published: true
 ---
-
-Some information about you!
-
+Welcome to Hacker4society, a unique blog here for you to explore. Hacker4society has added such value to my life, and I love having the opportunity to share my passions and thoughts with my loyal readers. Read on, and enjoy.
 ### More Information
+Hacker4Society was started by in the year  2018  with a vision to be like a hacker.
 
-A place to include any other types of information that you'd like to include about yourself.
+This Site is only for Guides to people about Technology Education, Hacker News, Tutorials, Daily Tips and Hacks not to violate anyone’s rights. We Hope that You will Get Useful Tech/Hacking News and Information and Helpful Tricks & Hacks.
 
 ### Contact me
-
+# Rajesh singh 
 [rajeshk.singhsds_cse17@its.edu.in](mailto:rajeshk.singhsds_cse17@its.edu.in)
