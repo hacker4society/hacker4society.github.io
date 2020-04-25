@@ -7,10 +7,12 @@ published: true
 ### Lets start...
 
 ### 1.Fill in the blanks of this code to print out the numbers 1 through 7.
-    number = 1
+```python
+   number = 1
 while number <=7:
  print(number, end=" ")
  number+=1
+```
 
 #### Answer: 1 2 3 4 5 6 7
 
