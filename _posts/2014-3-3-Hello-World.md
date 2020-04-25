@@ -4,6 +4,8 @@ title: You're up and running!
 published: true
 ---
 #This is my first post
+
+
     	package myinterface;
 interface Geoanalyzer {
 	final static float pi = 3.142f;
@@ -22,4 +24,4 @@ class circle implements Geoanalyzer {
 		return(2*pi*radius);
 	}
 }
-
+    	
