@@ -11,5 +11,7 @@ Hacker4Society was started by in the year  2018  with a vision to be like a hack
 This Site is only for Guides to people about Technology Education, Hacker News, Tutorials, Daily Tips and Hacks not to violate anyone’s rights. We Hope that You will Get Useful Tech/Hacking News and Information and Helpful Tricks & Hacks.
 
 ### Contact me
-# Rajesh singh 
+##### If you have any info and difficulty on any topic or doubt in mind. Just Feel Free to Contact
+#### Rajesh singh 
+
 [rajeshk.singhsds_cse17@its.edu.in](mailto:rajeshk.singhsds_cse17@its.edu.in)
