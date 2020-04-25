@@ -13,4 +13,4 @@ A place to include any other types of information that you'd like to include abo
 
 ### Contact me
 
-[email@domain.com](mailto:rajeshk.singhsds_cse17@its.edu.in)
+[rajeshk.singhsds_cse17@its.edu.in](mailto:rajeshk.singhsds_cse17@its.edu.in)
