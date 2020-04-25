@@ -27,9 +27,7 @@ show_letters("Hello")
 #### l
 #### o
 
-#### 3.Complete the function digits(n) that returns how many digits the number has. For
-example: 25 has 2 digits and 144 has 3 digits. Tip: you can figure out the digits of a
-number by dividing it by 10 once per digit until there are no digits left
+#### 3.Complete the function digits(n) that returns how many digits the number has. For example: 25 has 2 digits and 144 has 3 digits. Tip: you can figure out the digits of a number by dividing it by 10 once per digit until there are no digits left
 
     	def digits(n):
  count = 0
@@ -47,10 +45,8 @@ print(digits(0)) # Should print 1
 
 ##### Answer:2 3 4 1
 
-#### 4.This function prints out a multiplication table (where each number is the result of
-multiplying the first number of its row by the number at the top of its column). Fill in the
-blanks so that calling multiplication_table(1, 3) will print out:
-1 2 3
+#### 4.This function prints out a multiplication table (where each number is the result of multiplying the first number of its row by the number at the top of its column). Fill in the blanks so that calling multiplication_table(1,3) will print out:
+1 2 3 
 2 4 6
 3 6 9
 
