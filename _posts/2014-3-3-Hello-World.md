@@ -17,11 +17,12 @@ while number <=7:
 #### Answer: 1 2 3 4 5 6 7
 
 ### 2.The show_letters function should print out each letter of a word on a separate line. Fill in the blanks to make that happen.
-    	def show_letters(word):
+ ```Python  	
+        def show_letters(word):
  for letters in word:
  print(letters)
 show_letters("Hello")
-
+```
 #### Answer: 
 #### H
 #### e
@@ -30,8 +31,8 @@ show_letters("Hello")
 #### o
 
 #### 3.Complete the function digits(n) that returns how many digits the number has. For example: 25 has 2 digits and 144 has 3 digits. Tip: you can figure out the digits of a number by dividing it by 10 once per digit until there are no digits left
-
-    	def digits(n):
+```python      
+      def digits(n):
  count = 0
  if n == 0:
  return 1
@@ -43,6 +44,7 @@ print(digits(25))
 print(digits(144))
 print(digits(1000))
 print(digits(0))
+```
 
 ##### Answer:2 3 4 1
 
@@ -50,41 +52,44 @@ print(digits(0))
 1 2 3 
 2 4 6
 3 6 9
-
+```python
     	def multiplication_table(start, stop):
  for x in range(start,stop+1):
  for y in range(start,stop+1):
  print(str(x*y), end=" ")
  print()
 multiplication_table(1, 3)
-
+```
 ##### Answer: Answer is given in question above
 
 #### 5.The following code raises an error when executed. What's the reason for the error?
-
+```python
     	def decade_counter():
  while year < 50:
  year += 10
  return year
- 
+```
 ##### Answer:Failure to initialize variables
 
 #### 6.What is the value of x at the end of the following code?
-    	for x in range(1, 10, 3):
+```python  
+ for x in range(1, 10, 3):
  print(x)
-
+```
 ##### Answer:7
 
 #### 7.What is the value of y at the end of the following code?
-    	for x in range(10):
+```python   	
+for x in range(10):
  for y in range(x):
  print(y)
- 
+```
 ##### Answer:8
  
 #### 8.How does this function need to be called to print yes, no, and maybe as possible options?
-     	def votes(params):
+```python
+def votes(params):
  for vote in params:
  print("Possible option:" + vote)
- 
+```
 ##### Answer: votes(['yes', 'no', 'maybe'])
