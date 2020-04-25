@@ -17,7 +17,7 @@ while number <=7:
 #### Answer: 1 2 3 4 5 6 7
 
 ### 2.The show_letters function should print out each letter of a word on a separate line. Fill in the blanks to make that happen.
- ```Python  	
+ ```python  	
         def show_letters(word):
  for letters in word:
  print(letters)
