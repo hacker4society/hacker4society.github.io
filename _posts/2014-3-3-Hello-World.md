@@ -3,8 +3,8 @@ layout: post
 title: Python
 published: true
 ---
-### This is my first post on python practise-1
-#### Lets start...
+### Python practise-1
+
 
 ### 1.Fill in the blanks of this code to print out the numbers 1 through 7.
 ```python
