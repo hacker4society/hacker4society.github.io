@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python Practise-1
+title: Python Practise 1
 published: true
 ---
 
