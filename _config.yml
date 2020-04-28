@@ -31,13 +31,12 @@ footer-links:
   youtube: 
   googleplus:
   email: rajeshk.singhsds_cse17@its.edu.in
-  ` <a href='https://hacker4society.github.io/'>Hacker4society</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=74e89c7a63bb738d7eac568e0e07bc09196e796f'></script>
-<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/675813/t/5"></script>`
+   
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus:
+disqus: disqus_E1egIBQb6j
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-164635392-1
