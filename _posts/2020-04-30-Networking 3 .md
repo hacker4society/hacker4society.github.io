@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ##### 1.cat5 and cat6 cabling refer to which refence model layer?
 #### Answer: Physical
