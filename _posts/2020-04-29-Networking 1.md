@@ -31,5 +31,3 @@ published: true
 
 ##### 10.What Internet system, that still exists today, was built during the early days of dial-up networking?
 #### Answer: USENET
-
-
