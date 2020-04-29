@@ -1,7 +1,6 @@
 ---
 published: true
 ---
-### connecting to internet
 
 ##### 1.The rate at which a dial-up connection can send data across a telephone wire is known as a _____ rate.
 #### Answer: boud
