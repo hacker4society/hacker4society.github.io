@@ -76,7 +76,7 @@ print(combine_lists(Jamies_list, Drews_list))
 >>> print(animal[-5])
 >>> print(animal[10:])
 ```
-#### Answer:` pop, t, us `
+#### Answer: `pop, t, us`
 
 ##### 5.What do the following commands return? 
 ``` python
