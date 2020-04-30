@@ -35,7 +35,23 @@ print(highlight_word("Have a nice day", "nice"))
 print(highlight_word("Shhh, don't be so loud!", "loud"))
 print(highlight_word("Automating with Python is fun", "fun"))
 ```
-- Answer: house number 123 on street named Main Street
--  house number 1001 on street named 1st Ave 
--  house number 55 on street named North Center Drive
+##### Answer:
+- house number 123 on street named Main Street
+- house number 1001 on street named 1st Ave 
+- house number 55 on street named North Center Drive
+
+
+##### 2.The highlight_word function changes the given word in a sentence to its upper-case version. For example, highlight_word("Have a nice day", "nice") returns "Have a NICE day". Can you write this function in just one line?
+``` python
+def highlight_word(sentence, word):
+ return(sentence.replace(word,word.upper()))
+print(highlight_word("Have a nice day", "nice"))
+print(highlight_word("Shhh, don't be so loud!", "loud"))
+print(highlight_word("Automating with Python is fun", "fun"))
+```
+##### Answer:
+Have a NICE day
+Shhh, don't be so LOUD!
+Automating with Python is FUN
+
 
