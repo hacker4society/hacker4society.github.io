@@ -2,7 +2,7 @@
 published: true
 ---
 ##### 1.The format_address function separates out parts of the address string into new strings:house_number and street_name, and returns: "house number X on street named Y". The format of the input string is: numeric house number, followed by the street name which may contain numbers, but never by themselves, and could be several words long. For example, "123 Main Street", "1001 1st Ave", or "55 North Center Drive". Fill in the gaps to complete this function.
-```python
+``` python
 def format_address(address_string):
  # Declare variables
  house_number =''
@@ -35,6 +35,7 @@ print(highlight_word("Have a nice day", "nice"))
 print(highlight_word("Shhh, don't be so loud!", "loud"))
 print(highlight_word("Automating with Python is fun", "fun"))
 ```
-#### Answer: `house number 123 on street named Main Street`
-`house number 1001 on street named 1st Ave` 
-`house number 55 on street named North Center Drive`
+- Answer: house number 123 on street named Main Street
+-  house number 1001 on street named 1st Ave 
+-  house number 55 on street named North Center Drive
+
