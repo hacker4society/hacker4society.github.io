@@ -50,8 +50,40 @@ print(highlight_word("Shhh, don't be so loud!", "loud"))
 print(highlight_word("Automating with Python is fun", "fun"))
 ```
 ##### Answer:
-Have a NICE day
-Shhh, don't be so LOUD!
-Automating with Python is FUN
+- Have a NICE day
+- Shhh, don't be so LOUD!
+- Automating with Python is FUN
+
+#### 3.A professor with two assistants, Jamie and Drew, wants an attendance list of the students, in the order that they arrived in the classroom. Drew was the first one to note which students arrived, and then Jamie took over. After the class, they each entered their lists into the computer and emailed them to the professor, who needs to combine them into one, in the order of each student's arrival. Jamie emailed a follow-up, saying that her list is in reverse order. Complete the steps to combine them into one list as follows: the contents of Drew's list, followed by Jamie's list in reverse order, to get an accurate list of the students as they arrived.
+``` python
+def combine_lists(list1, list2):
+ # Generate a new list containing the elements of list2
+ # Followed by the elements of list1 in reverse order
+ new_list = list2
+ for i in reversed(range(len(list1))):
+ new_list.append(list1[i])
+ return new_list
+
+Jamies_list = ["Alice", "Cindy", "Bobby", "Jan", "Peter"]
+Drews_list = ["Mike", "Carol", "Greg", "Marcia"]
+print(combine_lists(Jamies_list, Drews_list))
+```
+##### Answer:`['Mike', 'Carol', 'Greg', 'Marcia', 'Peter', 'Jan', 'Bobby', 'Cindy', 'Alice']`
+
+##### 4.What do the following commands return when animal = "Hippopotamus"?
+``` python
+>>> print(animal[3:6])
+>>> print(animal[-5])
+>>> print(animal[10:])
+```
+#### Answer: pop, t, us
+
+##### 5.What do the following commands return? 
+``` python
+host_addresses = {"router": "192.168.1.1", "localhost": "127.0.0.1", "google"
+ "8.8.8.8"}
+host_addresses.keys()
+```
+##### Answer: `['router', 'localhost', 'google']`
 
 
