@@ -2,7 +2,7 @@
 published: true
 layout: post
 description: Networking
-date: 2020-05-02T00:00:00.000Z
+date: {}
 tags:
   - Networking
 ---
@@ -11,6 +11,8 @@ tags:
 
 ##### 2.Which technology is used as a demarcation point for fiber optics?
 #### Answer: Optical Network Terminator
+
+<!--more-->
 
 ##### 3.When it comes to wireless channels, which channels never overlap? Check all that apply.
 #### Answer: 1,6,11
