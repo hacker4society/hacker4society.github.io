@@ -8,22 +8,22 @@
      {
       "title": "Facebook",
       "icon": "fa-facebook",
-      "url": "profile.php?id=100023600470956"
+      "url": "https://facebook.com/profile.php?id=100023600470956"
     },
     {
       "title": "GitHub",
       "icon": "fa-github",
-      "url": "Rajeshsinghcse"
+      "url": "https://github.com/Rajeshsinghcse"
     },
     {
       "title": "Instagram",
       "icon": "fa-instagram",
-      "url": "rajeshcse1721/"
+      "url": "https://instagram.com/rajeshcse1721/"
     },
     {
       "title": "LinkedIn",
       "icon": "fa-linkedin",
-      "url": "in/rajesh-singh-824a54118"
+      "url": "https://linkedin.com/in/rajesh-singh-824a54118"
     }
   ]
 }
