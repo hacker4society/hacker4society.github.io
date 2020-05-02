@@ -31,11 +31,11 @@ navigation:
   - text: Home
     url: /
   - text: About
-    url: /about
+    url: /
   - text: Style Guide
-    url: /style-guide/
+    url: /
   - text: Tags
-    url: /tags/
+    url: /
   - text: Download
     url: /
 # The shortname for your Disqus site to enable comments.
