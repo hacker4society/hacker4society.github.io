@@ -32,11 +32,11 @@ navigation:
     url: /
   - text: About
     url: /
-  - text: Style Guide
+  - text:
     url: /
   - text: Tags
     url: /
-  - text: Download
+  - text: Contact
     url: /
 # The shortname for your Disqus site to enable comments.
 disqus: justgoodthemes
