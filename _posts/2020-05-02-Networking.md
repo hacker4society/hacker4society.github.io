@@ -14,6 +14,7 @@ tags:
 
 ##### 3.When it comes to wireless channels, which channels never overlap? Check all that apply.
 #### Answer: 1,6,11
+
 <!--more-->
 
 ##### 4.Which technology is NOT a form of broadband?
