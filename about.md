@@ -3,14 +3,15 @@ layout: page
 title: About this blog
 description: An optional about page for Scriptor Jekyll theme
 feature_image: images/about.jpg
+published: true
 ---
 
-**John Doe** is a Senior Art Director from [Vilnius](https://en.wikipedia.org/wiki/Vilnius), Lithuania. After graduating from The College of Visual Arts with a degree in Communication Design, he worked for three small graphic design shops where he honed his design style and sensibility.
+Welcome to Hacker4society, a unique blog here for you to explore. Hacker4society has added such value to my life, and I love having the opportunity to share my passions and thoughts with my loyal readers. Read on, and enjoy.
+### More Information
+Hacker4Society was started by in the year  2018  with a vision to be like a hacker.
 
-His work has been recognized by Communication Arts, Print, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. Graphic Design USA named him a person to watch in 2015.
+This Site is only for Guides to people about Technology Education, Hacker News, Tutorials, Daily Tips and Hacks not to violate anyone’s rights. We Hope that You will Get Useful Tech/Hacking News and Information and Helpful Tricks & Hacks.
 
->The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
-
-As a hobby, John Doe authors the most influential design blog in Lithuania with over 100,000 page views a month. He lives in Vilnius with his beautiful wife, two boys and one girl.
+[rajeshk.singhsds_cse17@its.edu.in](mailto:rajeshk.singhsds_cse17@its.edu.in)
 
 *Thank You for reading!*
