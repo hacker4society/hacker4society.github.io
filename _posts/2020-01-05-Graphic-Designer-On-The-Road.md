@@ -6,7 +6,6 @@ date: {}
 feature_image: null
 tags:
   - programming
-  - coding
 published: true
 ---
 
