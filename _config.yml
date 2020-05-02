@@ -33,7 +33,7 @@ navigation:
   - text: About
     url: /about
   - text: Tags
-    url: /
+    url: /tags
   - text: Contact
     url: /contact
 # The shortname for your Disqus site to enable comments.
