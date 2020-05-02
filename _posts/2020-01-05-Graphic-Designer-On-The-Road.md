@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Graphic Designer On The Road
+title: python practise 3
 description: pyton programming
 date: 2020-04-30T00:00:00.000Z
 feature_image: null
