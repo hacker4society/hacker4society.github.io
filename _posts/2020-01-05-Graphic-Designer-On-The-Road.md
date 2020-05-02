@@ -1,33 +1,96 @@
 ---
 layout: post
-title: "Graphic Designer On The Road"
-description: "A graphic designer is a professional within the graphic design and graphic arts industry."
-date: 2020-01-05
-feature_image: images/road.jpg
-tags: [tips, work]
+title: Graphic Designer On The Road
+description: pyton programming
+date: 2020-04-30T00:00:00.000Z
+feature_image: null
+tags:
+  - programming
+  - coding
+published: true
 ---
 
-A graphic designer is a professional within the graphic design and graphic arts industry who assembles together images, typography, or motion graphics to create a piece of design. A graphic designer creates the graphics primarily for published, printed or electronic media, such as brochures (sometimes) and advertising. They are also sometimes responsible for typesetting, illustration, user interfaces, web design, or take a teaching position. A core responsibility of the designer's job is to present information in a way that is both accessible and memorable.
+##### 1.The format_address function separates out parts of the address string into new strings:house_number and street_name, and returns: "house number X on street named Y". The format of the input string is: numeric house number, followed by the street name which may contain numbers, but never by themselves, and could be several words long. For example, "123 Main Street", "1001 1st Ave", or "55 North Center Drive". Fill in the gaps to complete this function.
+``` python
+def format_address(address_string):
+ # Declare variables
+ house_number =''
+ street_name =''
+ # Separate the address string into parts
+ spi = address_string.split()
+ # Traverse through the address parts
+ for ele in spi:
+ # Determine if the address part is the
+ # house number or part of the street name
+ if ele.isdigit():
+ house_number = ele
+ else:
+ street_name += ele
+ street_name += ' '
+ # Does anything else need to be done
+ # before returning the result?
 
-<!--more-->
+ # Return the formatted string
+ return "house number {} on street named {}".format(house_number, street_nam
+print(format_address("123 Main Street"))
+# Should print: "house number 123 on street named Main Street"
+print(format_address("1001 1st Ave"))
+# Should print: "house number 1001 on street named 1st Ave"
+print(format_address("55 North Center Drive"))
+# Should print "house number 55 on street named North Center Drive"
+def highlight_word(sentence, word):
+ return(sentence.replace(word,word.upper()))
+print(highlight_word("Have a nice day", "nice"))
+print(highlight_word("Shhh, don't be so loud!", "loud"))
+print(highlight_word("Automating with Python is fun", "fun"))
+```
+##### Answer:
+- house number 123 on street named Main Street
+- house number 1001 on street named 1st Ave 
+- house number 55 on street named North Center Drive
 
-A degree or certificate from an accredited trade school is usually considered essential for a graphic design position. After a career history has been established, though, the graphic designer's experience and number of years in the business are considered the primary qualifications. A portfolio, which is the primary method for demonstrating these qualifications, is usually required to be shown at job interviews, and is constantly developed throughout a designer's career. [[Source](https://en.wikipedia.org/wiki/Graphic_designer)]
 
-Ice molecules can exhibit up to sixteen different phases *(packing geometries)* that depend on temperature and pressure. When water is cooled rapidly (quenching), up to three different types of amorphous ice can form depending on the history of its pressure and temperature. When cooled slowly correlated proton tunneling occurs below 20 K giving rise to macroscopic quantum phenomena. Virtually all the ice on Earth's surface and in its atmosphere is of a hexagonal crystalline structure denoted as ice Ih (spoken as "ice one h") with minute traces of cubic ice denoted as ice Ic. The most common phase transition to ice Ih occurs when liquid water is cooled below 0°C (273.15K, 32°F) at standard atmospheric pressure. It may also be deposited directly by water vapor, as happens in the formation of frost. The transition from ice to water is melting and from ice directly to water vapor is sublimation.
+##### 2.The highlight_word function changes the given word in a sentence to its upper-case version. For example, highlight_word("Have a nice day", "nice") returns "Have a NICE day". Can you write this function in just one line?
+``` python
+def highlight_word(sentence, word):
+ return(sentence.replace(word,word.upper()))
+print(highlight_word("Have a nice day", "nice"))
+print(highlight_word("Shhh, don't be so loud!", "loud"))
+print(highlight_word("Automating with Python is fun", "fun"))
+```
+##### Answer:
+- Have a NICE day
+- Shhh, don't be so LOUD!
+- Automating with Python is FUN
 
-## Characteristics
+##### 3.A professor with two assistants, Jamie and Drew, wants an attendance list of the students, in the order that they arrived in the classroom. Drew was the first one to note which students arrived, and then Jamie took over. After the class, they each entered their lists into the computer and emailed them to the professor, who needs to combine them into one, in the order of each student's arrival. Jamie emailed a follow-up, saying that her list is in reverse order. Complete the steps to combine them into one list as follows: the contents of Drew's list, followed by Jamie's list in reverse order, to get an accurate list of the students as they arrived.
+``` python
+def combine_lists(list1, list2):
+ # Generate a new list containing the elements of list2
+ # Followed by the elements of list1 in reverse order
+ new_list = list2
+ for i in reversed(range(len(list1))):
+ new_list.append(list1[i])
+ return new_list
 
-As a naturally-occurring crystalline inorganic solid with an ordered structure, ice is considered a mineral.[citation needed] It possesses a regular crystalline structure based on the molecule of water, which consists of a single oxygen atom covalently bonded to two hydrogen atoms, or H-O-H. However, many of the physical properties of water and ice are controlled by the formation of hydrogen bonds between adjacent oxygen and hydrogen atoms; while it is a weak bond, it is nonetheless critical in controlling the structure of both water and ice.
+Jamies_list = ["Alice", "Cindy", "Bobby", "Jan", "Peter"]
+Drews_list = ["Mike", "Carol", "Greg", "Marcia"]
+print(combine_lists(Jamies_list, Drews_list))
+```
+##### Answer:`['Mike', 'Carol', 'Greg', 'Marcia', 'Peter', 'Jan', 'Bobby', 'Cindy', 'Alice']`
 
-> “ice contains no future , just the past, sealed away. As if they're alive, everything in the world is sealed up inside, clear and distinct. Ice can preserve all kinds of things that way- cleanly, clearly. That's the essence of ice, the role it plays.” 
-> <cite>― Haruki Murakami</cite>
+##### 4.What do the following commands return when animal = "Hippopotamus"?
+``` python
+>>> print(animal[3:6])
+>>> print(animal[-5])
+>>> print(animal[10:])
+```
+#### Answer:`pop, t, us`
 
-An unusual property of ice frozen at atmospheric pressure is that the solid is approximately 8.3% less dense than liquid water. The density of ice is 0.9167 g/cm3 at 0 °C,[4] whereas water has a density of 0.9998 g/cm³ at the same temperature. Liquid water is densest, essentially 1.00 g/cm³, at 4 °C and becomes less dense as the water molecules begin to form the hexagonal crystals[5] of ice as the freezing point is reached. This is due to hydrogen bonding dominating the intermolecular forces, which results in a packing of molecules less compact in the solid. Density of ice increases slightly with decreasing temperature and has a value of 0.9340 g/cm³ at −180 °C (93 K).[6]
-
-When water freezes, it increases in volume (about 9% for freshwater).[7] The effect of expansion during freezing can be dramatic, and ice expansion is a basic cause of freeze-thaw weathering of rock in nature and damage to building foundations and roadways from frost heaving. It is also a common cause of the flooding of houses when water pipes burst due to the pressure of expanding water when it freezes.
-
-The result of this process is that ice *(in its most common form)* floats on liquid water, which is an important feature in Earth's biosphere. It has been argued that without this property, natural bodies of water would freeze, in some cases permanently, from the bottom up,[8] resulting in a loss of bottom-dependent animal and plant life in fresh and sea water. Sufficiently thin ice sheets allow light to pass through while protecting the underside from short-term weather extremes such as wind chill. This creates a sheltered environment for bacterial and algal colonies. When sea water freezes, the ice is riddled with brine-filled channels which sustain sympagic organisms such as bacteria, algae, copepods and annelids, which in turn provide food for animals such as krill and specialised fish like the bald notothen, fed upon in turn by larger animals such as emperor penguins and minke whales.
-
-When ice melts, it absorbs as much energy as it would take to heat an equivalent mass of water by 80 °C. During the melting process, the temperature remains constant at 0 °C. While melting, any energy added breaks the hydrogen bonds between ice (water) molecules. Energy becomes available to increase the thermal energy (temperature) only after enough hydrogen bonds are broken that the ice can be considered liquid water. The amount of energy consumed in breaking hydrogen bonds in the transition from ice to water is known as the heat of fusion.
-
-As with water, ice absorbs light at the red end of the spectrum preferentially as the result of an overtone of an oxygen-hydrogen (O-H) bond stretch. Compared with water, this absorption is shifted toward slightly lower energies. Thus, ice appears blue, with a slightly greener tint than for liquid water. Since absorption is cumulative, the color effect intensifies with increasing thickness or if internal reflections cause the light to take a longer path through the ice.
+##### 5.What do the following commands return? 
+``` python
+host_addresses = {"router": "192.168.1.1", "localhost": "127.0.0.1", "google"
+ "8.8.8.8"}
+host_addresses.keys()
+```
+##### Answer: `['router', 'localhost', 'google']`
