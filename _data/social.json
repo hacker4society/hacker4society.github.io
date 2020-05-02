@@ -24,6 +24,12 @@
       "title": "LinkedIn",
       "icon": "fa-linkedin",
       "url": "https://linkedin.com/in/rajesh-singh-824a54118"
+    },
+    {
+      "title": "E-mail",
+      "icon": "fa-envelope",
+      "url": "rajeshk.singhsds_cse17@its.edu.in"
     }
+   
   ]
 }
