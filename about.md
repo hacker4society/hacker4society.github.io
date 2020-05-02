@@ -1,8 +1,8 @@
 ---
 layout: page
 title: About this blog
-description: An optional about page for Scriptor Jekyll theme
-feature_image: images/about.jpg
+description: About US
+feature_image: null
 published: true
 ---
 
