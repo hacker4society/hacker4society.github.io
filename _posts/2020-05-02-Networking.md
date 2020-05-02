@@ -12,10 +12,9 @@ tags:
 ##### 2.Which technology is used as a demarcation point for fiber optics?
 #### Answer: Optical Network Terminator
 
-<!--more-->
-
 ##### 3.When it comes to wireless channels, which channels never overlap? Check all that apply.
 #### Answer: 1,6,11
+<!--more-->
 
 ##### 4.Which technology is NOT a form of broadband?
 #### Answer: ISDN
