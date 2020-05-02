@@ -1,5 +1,10 @@
 ---
 published: true
+layout: post
+description: Networking
+date: {}
+tags:
+  - Networking
 ---
 ### 1.Fill in the blanks of this code to print out the numbers 1 through 7.
 ```python
