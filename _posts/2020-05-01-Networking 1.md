@@ -1,5 +1,10 @@
 ---
 published: true
+layout: post
+description: Networking
+date: {}
+tags:
+  - Networking
 ---
 ##### 1.Which value once represented a very popular modem baud rate that was used with dial-up connections?
 #### Answer: 14400
