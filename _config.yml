@@ -31,7 +31,7 @@ navigation:
   - text: Home
     url: /
   - text: About
-    url: /
+    url: /about
   - text: Tags
     url: /
   - text: Contact
