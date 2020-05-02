@@ -2,7 +2,7 @@
 layout: post
 title: python practise 3
 description: pyton programming
-date: {}
+date: 2020-05-02T00:00:00.000Z
 feature_image: null
 tags:
   - programming
