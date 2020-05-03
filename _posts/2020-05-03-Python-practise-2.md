@@ -1,10 +1,10 @@
 ---
 published: true
 layout: post
-description: Networking
+description: python programming
 date: 2020-05-03T00.00.0000Z
 tags:
-  - Networking
+  - Programming
 ---
 ### 1.Fill in the blanks of this code to print out the numbers 1 through 7.
 ```python
@@ -30,6 +30,8 @@ show_letters("Hello")
 #### l
 #### o
 
+<!--more-->
+
 #### 3.Complete the function digits(n) that returns how many digits the number has. For example: 25 has 2 digits and 144 has 3 digits. Tip: you can figure out the digits of a number by dividing it by 10 once per digit until there are no digits left.
 ```python
 def digits(n):
@@ -48,7 +50,7 @@ print(digits(0)) # Should print 1
 ```
 ##### Answer:2 3 4 1
 
-<!--more-->
+
 
 #### 4.This function prints out a multiplication table (where each number is the result of multiplying the first number of its row by the number at the top of its column). Fill in the blanks so that calling multiplication_table(1,3) will print out:
 1 2 3 
