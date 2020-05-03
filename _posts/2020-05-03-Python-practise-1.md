@@ -2,7 +2,7 @@
 published: true
 layout: post
 description: pyton programming
-date: {}
+date: 2020-05-03T00.00.0000Z
 tags:
   - programming
 ---
