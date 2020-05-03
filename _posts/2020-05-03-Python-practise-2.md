@@ -14,7 +14,6 @@ while number <=7:
  number+=1
 ```
 #### Answer: 1 2 3 4 5 6 7
-<!--more-->
 
 ### 2.The show_letters function should print out each letter of a word on a separate line. Fill in the blanks to make that happen.
 ```python
@@ -48,6 +47,8 @@ print(digits(1000)) # Should print 4
 print(digits(0)) # Should print 1
 ```
 ##### Answer:2 3 4 1
+
+<!--more-->
 
 #### 4.This function prints out a multiplication table (where each number is the result of multiplying the first number of its row by the number at the top of its column). Fill in the blanks so that calling multiplication_table(1,3) will print out:
 1 2 3 
