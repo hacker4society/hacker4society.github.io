@@ -77,7 +77,7 @@ Jamies_list = ["Alice", "Cindy", "Bobby", "Jan", "Peter"]
 Drews_list = ["Mike", "Carol", "Greg", "Marcia"]
 print(combine_lists(Jamies_list, Drews_list))
 ```
-##### Answer:` ['Mike', 'Carol', 'Greg', 'Marcia', 'Peter', 'Jan', 'Bobby', 'Cindy', 'Alice'] `
+##### Answer:['Mike', 'Carol', 'Greg', 'Marcia', 'Peter', 'Jan', 'Bobby', 'Cindy', 'Alice'] 
 
 ##### 4.What do the following commands return when animal = "Hippopotamus"?
 ```Python3
@@ -85,7 +85,7 @@ print(combine_lists(Jamies_list, Drews_list))
 >>> print(animal[-5])
 >>> print(animal[10:])
 ```
-#### Answer:`pop, t, us`
+#### Answer: pop, t, us
 
 ##### 5.What do the following commands return? 
 ```Python3
@@ -93,4 +93,4 @@ host_addresses = {"router": "192.168.1.1", "localhost": "127.0.0.1", "google"
  "8.8.8.8"}
 host_addresses.keys()
 ```
-##### Answer: `['router', 'localhost', 'google']`
+##### Answer: ['router', 'localhost', 'google']
