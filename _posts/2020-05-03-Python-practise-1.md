@@ -14,7 +14,7 @@ tags:
 
 ##### 3.Students in a class receive their grades as Pass/Fail. Scores of 60 or more (out of 100) mean that the grade is "Pass". For lower scores, the grade is "Fail". In addition, scores above 95 (not included) are graded as "Top Score". Fill in this function so that it returns the proper grade.
 
-{% highlight Python3 %}
+{% highlight python %}
 def exam_grade(score):
 	if score>95:
 		grade = "Top Score"
@@ -46,7 +46,7 @@ print(exam_grade(0)) # Should be Fail
 
 ##### 5.The longest_word function is used to compare 3 words. It should return the word with the most number of characters (and the first in the list when they have the same length). Fill in the blank to make this happen.
 
-{% highlight Python3 %}
+{% highlight python %}
 def longest_word(word1, word2, word3):
 	if len(word1) >= len(word2) and len(word1) >= len(word3):
 		word = word1
@@ -67,7 +67,7 @@ print(longest_word("laptop", "notebook", "desktop"))
 
 ##### 6.What’s the output of this code?
 
-{% highlight Python3 %}
+{% highlight python %}
 def sum(x, y):
 	return(x+y)
 print(sum(sum(1,2), sum(3,4)))
@@ -82,7 +82,7 @@ print(sum(sum(1,2), sum(3,4)))
 
 ##### 8.The fractional_part function divides the numerator by the denominator, and returns just the fractional part (a number between 0 and 1). Complete the body of the function so that it returns the right number. Note: Since division by 0 produces an error, if the denominator is 0, the function should return 0 instead of attempting the division.
 
-{% highlight Python3 %}
+{% highlight python %}
 def fractional_part(numerator, denominator):
      return float((numerator % denominator)) / denominator  if denominator != 0 
        else 0
