@@ -2,7 +2,7 @@
 layout: page
 title: About this blog
 description: About US
-feature_image: null
+feature_image: images/author.jpg
 published: true
 ---
 
