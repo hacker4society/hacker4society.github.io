@@ -23,7 +23,6 @@ Enabling notebook extension fileupload/extension...
 # Here are all the installs and imports you will need for your word cloud script and uploader widget
 
 {% highlight Python3 %}
-
 get_ipython().system('pip install wordcloud')
 get_ipython().system('pip install fileupload')
 get_ipython().system('pip install ipywidgets')
@@ -139,3 +138,12 @@ plt.show()
 ![download.png]({{site.baseurl}}/_posts/download.png)
 
 If your word cloud image did not appear, go back and rework your calculate_frequencies function until you get the desired output. Definitely check that you passed your frequecy count dictionary into the generate_from_frequencies function of wordcloud. Once you have correctly displayed your word cloud image, you are all done with this project. Nice work!
+
+{% highlight java %}
+public class HelloWorld
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
+}
+{% endhighlight %}
