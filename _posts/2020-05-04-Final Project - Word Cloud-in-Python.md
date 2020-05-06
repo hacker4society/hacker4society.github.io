@@ -89,7 +89,7 @@ Write a function in the cell below that iterates through the words in file_conte
 
 Hint: Try storing the results of your iteration in a dictionary before passing them into wordcloud via the generate_from_frequencies function.
 
-{% highlight Python3 %}
+{% highlight python %}
 def calculate_frequencies(file_contents):
     # Here is a list of punctuations and uninteresting words you can use to process your text
     punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
