@@ -63,6 +63,7 @@ To upload your text file, run the following cell that contains all the code for 
 
 def _upload():
 
+{% highlight python %}
     _upload_widget = fileupload.FileUploadWidget()
 
     def _cb(change):
@@ -75,7 +76,8 @@ def _upload():
 
     _upload_widget.observe(_cb, names='data')
     display(_upload_widget)
-
+    
+{% endhighlight %}
 _upload()
 Uploaded `61211-0.txt` (253.23 kB)
 The uploader widget saved the contents of your uploaded file into a string object named file_contents that your word cloud script can process. This was a lot of preliminary work, but you are now ready to begin your script.
@@ -84,6 +86,7 @@ Write a function in the cell below that iterates through the words in file_conte
 
 Hint: Try storing the results of your iteration in a dictionary before passing them into wordcloud via the generate_from_frequencies function.
 
+{% highlight python %}
 def calculate_frequencies(file_contents):
     # Here is a list of punctuations and uninteresting words you can use to process your text
     punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
@@ -115,14 +118,17 @@ def calculate_frequencies(file_contents):
     cloud = wordcloud.WordCloud()
     cloud.generate_from_frequencies(word_count)
     return cloud.to_array()
+{% endhighlight %}
 If you have done everything correctly, your word cloud image should appear after running the cell below. Fingers crossed!
 
 # Display your wordcloud image
 
+{% highlight python %}
 myimage = calculate_frequencies(file_contents)
 plt.imshow(myimage, interpolation = 'nearest')
 plt.axis('off')
 plt.show()
+{% endhighlight %}
 
 ![download.png]({{site.baseurl}}/_posts/download.png)
 
