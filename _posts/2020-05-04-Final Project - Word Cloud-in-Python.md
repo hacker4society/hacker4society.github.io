@@ -66,7 +66,8 @@ To upload your text file, run the following cell that contains all the code for 
 
 # This is the uploader widget
 
-{% highlight Python3 %}
+```Python3
+
 def _upload():
 	_upload_widget = fileupload.FileUploadWidget()
 	def _cb(change):
@@ -79,7 +80,7 @@ def _upload():
 	_upload_widget.observe(_cb, names='data')
     display(_upload_widget)
 _upload()
-{% endhighlight %}
+```
 
 Uploaded `61211-0.txt` (253.23 kB)
 The uploader widget saved the contents of your uploaded file into a string object named file_contents that your word cloud script can process. This was a lot of preliminary work, but you are now ready to begin your script.
@@ -139,11 +140,11 @@ plt.show()
 
 If your word cloud image did not appear, go back and rework your calculate_frequencies function until you get the desired output. Definitely check that you passed your frequecy count dictionary into the generate_from_frequencies function of wordcloud. Once you have correctly displayed your word cloud image, you are all done with this project. Nice work!
 
-{% highlight java %}
+```java
 public class HelloWorld
 {
 	public static void main(String[] args) {
 		System.out.println("Hello World!");
 	}
 }
-{% endhighlight %}
+```
