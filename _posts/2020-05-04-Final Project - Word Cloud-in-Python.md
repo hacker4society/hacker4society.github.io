@@ -7,6 +7,7 @@ tags:
   - Programming
   - codding
   - Coursera
+feature_image: images/download.png
 ---
 
 For this project, you'll create a "word cloud" from a text by writing a script.  This script needs to process the text, remove punctuation, ignore case and words that do not contain all alphabets, count the frequencies, and ignore uninteresting or irrelevant words.  A dictionary is the output of the `calculate_frequencies` function.  The `wordcloud` module will then generate the image from your dictionary.
@@ -236,7 +237,8 @@ plt.show()
 ```
 
 
-![output_10_0.png]({{site.baseurl}}/_posts/output_10_0.png)
+{% include image_full.html imageurl="/images/download.png" title="word cloud" caption="word cloud in python" %}
+
 
 
 
