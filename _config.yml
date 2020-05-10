@@ -60,7 +60,7 @@ paginate_path: '/page:num/'
 permalink: /:title
 
 # Conversion
-markdown: kramdown
+markdown: rouge
 
 # Sass
 sass:
