@@ -60,7 +60,7 @@ paginate_path: '/page:num/'
 permalink: /:title
 
 # Conversion
-markdown: rouge
+markdown: MyCustomProcessor
 
 # Sass
 sass:
