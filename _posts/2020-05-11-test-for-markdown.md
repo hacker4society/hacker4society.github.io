@@ -7,9 +7,6 @@ tags:
   - General
 ---
 #### this is test file
-{% highlight python %}
-	a=15
-    b=25
-    c=a+b
-    print("sum is",c)
-{% endhighlight %}
+~~~python
+print("hello world this is test ")
+~~~
