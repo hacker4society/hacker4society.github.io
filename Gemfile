@@ -17,6 +17,7 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
     ::FunkyMarkdown.new(content).convert
   end
 end
+
 group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-sitemap'
