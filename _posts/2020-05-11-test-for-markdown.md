@@ -7,6 +7,4 @@ tags:
   - General
 ---
 #### this is test file
-~~~python
-print("hello world this is test ")
-~~~
+<script src="https://gist.github.com/Rajeshsinghcse/e6c7d772539eee93a396edd0d2cefc21.js"></script>
