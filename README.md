@@ -1,3 +1,5 @@
+https://hacker4society.github.io/
+
 Welcome to Hacker4society, a unique blog here for you to explore. Hacker4society has added such value to my life, and I love having the opportunity to share my passions and thoughts with my loyal readers. Read on, and enjoy.
 
 More Information
